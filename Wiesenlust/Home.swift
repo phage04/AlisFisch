@@ -405,7 +405,7 @@ class Home: UIViewController, CLLocationManagerDelegate {
 
                                         }else {
                                             print("Checking NoImage: \(fields["categoryName"]!)")
-                                            
+                                           
                                             for item in categoriesData {
                                                 
                                                 
@@ -608,7 +608,7 @@ class Home: UIViewController, CLLocationManagerDelegate {
                                                         for item in foodItemsData {
                                                             
                                                             if let cat = fields["category"] as? Dictionary<String, AnyObject>,let sysItem = cat["sys"] as? Dictionary<String, AnyObject>, let catID1 = sysItem["id"] as? String, let includes = dataResult["includes"] as? Dictionary<String, AnyObject>, let entries = includes["Entry"] as? [Dictionary<String, AnyObject>] {
-                                                                
+                                                             
                                                                 for entry in entries{
                                                                     if let fieldEntry = entry["fields"] as? Dictionary<String, AnyObject>, let categoryName = fieldEntry["categoryName"] as? String, let sysEntry = entry["sys"] as? Dictionary<String, AnyObject>, let catID2 = sysEntry["id"] as? String, catID1 == catID2{
                                                                         categoryFood = categoryName
@@ -627,6 +627,7 @@ class Home: UIViewController, CLLocationManagerDelegate {
                                                                                 changes += 1
                                                                             }
                                                                         }
+
                                                                     }
                                                                 }
                                                                 
@@ -710,28 +711,28 @@ class Home: UIViewController, CLLocationManagerDelegate {
                                                         
                                                         myGroupFood2.leave()
                                                     })
-                                                }else {
-                                                    //If no image is uploaded for this item, user default or blank
-                                                    if let cat = fields["category"] as? Dictionary<String, AnyObject>,let sysItem = cat["sys"] as? Dictionary<String, AnyObject>, let catID1 = sysItem["id"] as? String, let includes = dataResult["includes"] as? Dictionary<String, AnyObject>, let entries = includes["Entry"] as? [Dictionary<String, AnyObject>] {
-                                                        
-                                                        for entry in entries{
-                                                            if let fieldEntry = entry["fields"] as? Dictionary<String, AnyObject>, let categoryName = fieldEntry["categoryName"] as? String, let sysEntry = entry["sys"] as? Dictionary<String, AnyObject>, let catID2 = sysEntry["id"] as? String, catID1 == catID2{
-                                                                categoryFood = categoryName
-                                                                foodItems.append(FoodItem(id: "\(foodItemID)", cat: "\(categoryFood!)", name: "\(fields["itemName"]!)", desc: "\(fields["itemDescription"]!)" , price: (fields["price"]! as? Double)!, image: nil, imgURL: nil, key: foodItemID, likes: likes))
-                                                            }
-                                                        }
-                                                        
-                                                    }
-                                                    
-                                                    myGroupFood2.leave()
                                                 }
                                             }
                                         }
+                                    }else {
+                                        //If no image is uploaded for this item, user default or blank
+                                        if let cat = fields["category"] as? Dictionary<String, AnyObject>,let sysItem = cat["sys"] as? Dictionary<String, AnyObject>, let catID1 = sysItem["id"] as? String, let includes = dataResult["includes"] as? Dictionary<String, AnyObject>, let entries = includes["Entry"] as? [Dictionary<String, AnyObject>] {
+                                            
+                                            for entry in entries{
+                                                if let fieldEntry = entry["fields"] as? Dictionary<String, AnyObject>, let categoryName = fieldEntry["categoryName"] as? String, let sysEntry = entry["sys"] as? Dictionary<String, AnyObject>, let catID2 = sysEntry["id"] as? String, catID1 == catID2{
+                                                    categoryFood = categoryName
+                                                    foodItems.append(FoodItem(id: "\(foodItemID)", cat: "\(categoryFood!)", name: "\(fields["itemName"]!)", desc: "\(fields["itemDescription"]!)" , price: (fields["price"]! as? Double)!, image: nil, imgURL: nil, key: foodItemID, likes: likes))
+                                                }
+                                            }
+                                            
+                                        }
+                                        
+                                        myGroupFood2.leave()
                                     }
                                 }
                                 
-                                   
-                                    
+                                
+                                
                             }
                                 
                         }
