@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/LyleJover/Google Drive/OnionApps/013_AlisFisch/Wiesenlust/Ali&apos;s Fisch.xcodeproj">
+      location = "group:Ali&apos;s Fisch.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
