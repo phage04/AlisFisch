@@ -74,7 +74,7 @@ class Home: UIViewController, CLLocationManagerDelegate {
         
         backgroundImg.image = UIImage(named: "bg")
         backgroundView.backgroundColor = UIColor.white
-        backgroundImg.alpha = 0.25
+        backgroundImg.alpha = 1.0
         
         socialButton.backgroundColor = UIColor.clear
         socialButton.layer.cornerRadius = 5
