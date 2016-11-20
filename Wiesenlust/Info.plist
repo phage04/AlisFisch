@@ -63,8 +63,8 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>To receive location-based discounts &amp; offers.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To detect the branches nearest to you.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>

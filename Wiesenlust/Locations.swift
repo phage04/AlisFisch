@@ -48,12 +48,12 @@ class LocationsVC: UIViewController, UITableViewDelegate, UITableViewDataSource,
 
         navigationController?.isNavigationBarHidden = false
 
-        self.locationManager.requestAlwaysAuthorization()
+        self.locationManager.requestWhenInUseAuthorization()
         
         if (CLLocationManager.locationServicesEnabled()){
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
-            locationManager.requestAlwaysAuthorization()
+            locationManager.requestWhenInUseAuthorization()
             UIApplication.shared.cancelAllLocalNotifications()
         }
         
