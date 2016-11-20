@@ -109,21 +109,21 @@ class Home: UIViewController, CLLocationManagerDelegate {
         menuItem1.setImage(scaledImage.withRenderingMode(.alwaysTemplate), for: UIControlState())
         
         
-        image = menuIcon2!
-        UIGraphicsBeginImageContextWithOptions(CGSize(width: targetWidth, height: targetHeight),false,0)
-        image.draw(in: CGRect(x: 0, y: 0, width: targetWidth, height: targetHeight))
-        scaledImage = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        menuItem2.setImage(scaledImage.withRenderingMode(.alwaysTemplate), for: UIControlState())
+//        image = menuIcon2!
+//        UIGraphicsBeginImageContextWithOptions(CGSize(width: targetWidth, height: targetHeight),false,0)
+//        image.draw(in: CGRect(x: 0, y: 0, width: targetWidth, height: targetHeight))
+//        scaledImage = UIGraphicsGetImageFromCurrentImageContext()!
+//        UIGraphicsEndImageContext()
+//        menuItem2.setImage(scaledImage.withRenderingMode(.alwaysTemplate), for: UIControlState())
         
         
-        image = menuIcon3!
-        UIGraphicsBeginImageContextWithOptions(CGSize(width: targetWidth, height: targetHeight),false,0)
-        image.draw(in: CGRect(x: 0, y: 0, width: targetWidth, height: targetHeight))
-        scaledImage = UIGraphicsGetImageFromCurrentImageContext()!
-        UIGraphicsEndImageContext()
-        menuItem3.setImage(scaledImage.withRenderingMode(.alwaysTemplate), for: UIControlState())
-        
+//        image = menuIcon3!
+//        UIGraphicsBeginImageContextWithOptions(CGSize(width: targetWidth, height: targetHeight),false,0)
+//        image.draw(in: CGRect(x: 0, y: 0, width: targetWidth, height: targetHeight))
+//        scaledImage = UIGraphicsGetImageFromCurrentImageContext()!
+//        UIGraphicsEndImageContext()
+//        menuItem3.setImage(scaledImage.withRenderingMode(.alwaysTemplate), for: UIControlState())
+
         image = menuIcon4!
         UIGraphicsBeginImageContextWithOptions(CGSize(width: targetWidth, height: targetHeight),false,0)
         image.draw(in: CGRect(x: 0, y: 0, width: targetWidth, height: targetHeight))
@@ -147,16 +147,16 @@ class Home: UIViewController, CLLocationManagerDelegate {
         
         
         menuItem1.tintColor = COLOR1
-        menuItem2.tintColor = COLOR1
-        menuItem3.tintColor = COLOR1
+        //menuItem2.tintColor = COLOR1
+        //menuItem3.tintColor = COLOR1
         menuItem4.tintColor = COLOR1
         menuItem5.tintColor = COLOR1
         menuItem6.tintColor = COLOR1
         
         
         menuLbl1.text = menuLblText1
-        menuLbl2.text = menuLblText2
-        menuLbl3.text = menuLblText3
+       // menuLbl2.text = menuLblText2
+        //menuLbl3.text = menuLblText3
         menuLbl4.text = menuLblText4
         menuLbl5.text = menuLblText5
         menuLbl6.text = menuLblText6
@@ -953,7 +953,7 @@ class Home: UIViewController, CLLocationManagerDelegate {
                                         self.saveAnnouncement(ann)
                                     }
                                     print("Update Check Complete.")
-                                    self.setupLocationNotifications()
+                                    //self.setupLocationNotifications()
                                     SwiftSpinner.hide()
                                 })
                             }
@@ -961,7 +961,7 @@ class Home: UIViewController, CLLocationManagerDelegate {
                         }else {
                             print("No changes in ANNOUNCEMENTS detected.")
                             print("Update Check Complete.")
-                            self.setupLocationNotifications()
+                            //self.setupLocationNotifications()
                             SwiftSpinner.hide()
                         }
                     
@@ -1007,7 +1007,7 @@ class Home: UIViewController, CLLocationManagerDelegate {
                                 self.saveAnnouncement(ann)
                             }
                             print("Update Check Complete.")
-                            self.setupLocationNotifications()
+                           // self.setupLocationNotifications()
                             SwiftSpinner.hide()
                         })
                     }

@@ -71,10 +71,10 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="333" height="112"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2Fm-pt-mDS">
-                                                                <rect key="frame" x="0.0" y="0.0" width="104.5" height="112"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="161.5" height="112"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeq-jE-VdD" customClass="ButtonAnimate" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="91.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="161.5" height="91.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="92" id="r5c-Qa-54z"/>
                                                                         </constraints>
@@ -85,49 +85,28 @@
                                                                         </connections>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XF3-gP-29L" customClass="LabelHome" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="91.5" width="104.5" height="20.5"/>
+                                                                        <rect key="frame" x="0.0" y="91.5" width="161.5" height="20.5"/>
                                                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="avR-MO-dNC">
-                                                                <rect key="frame" x="114.5" y="0.0" width="104" height="112"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ji3-mX-Jkh">
+                                                                <rect key="frame" x="171.5" y="0.0" width="161.5" height="112"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6O-5G-eko" customClass="ButtonAnimate" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="104" height="91.5"/>
+                                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tH-5S-uNQ" customClass="ButtonAnimate" customModule="Ali_s_Fisch" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="161.5" height="91.5"/>
                                                                         <constraints>
-                                                                            <constraint firstAttribute="width" constant="92" id="g1P-up-POl"/>
+                                                                            <constraint firstAttribute="width" constant="92" id="CgF-0P-f7c"/>
                                                                         </constraints>
                                                                         <state key="normal" image="menuIcon"/>
                                                                         <connections>
-                                                                            <segue destination="TSb-jX-W01" kind="show" id="T4D-LV-E4T"/>
+                                                                            <segue destination="leS-uA-puM" kind="show" id="PAO-9Z-2j9"/>
                                                                         </connections>
                                                                     </button>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZl-zI-pQy" customClass="LabelHome" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="91.5" width="104" height="20.5"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LMz-Wk-INs">
-                                                                <rect key="frame" x="228.5" y="0.0" width="104.5" height="112"/>
-                                                                <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMe-sU-8hF" customClass="ButtonAnimate" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="91.5"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="width" constant="92" id="LHN-Ld-as9"/>
-                                                                        </constraints>
-                                                                        <state key="normal" image="menuIcon"/>
-                                                                        <connections>
-                                                                            <segue destination="NJz-j9-Ghq" kind="show" id="08p-oD-Qpd"/>
-                                                                        </connections>
-                                                                    </button>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ru-6w-1iD" customClass="LabelHome" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="91.5" width="104.5" height="20.5"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yd-zV-Ieb" customClass="LabelHome" customModule="Ali_s_Fisch" customModuleProvider="target">
+                                                                        <rect key="frame" x="0.0" y="91.5" width="161.5" height="20.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -142,32 +121,11 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="tOy-NH-egg">
                                                         <rect key="frame" x="0.0" y="117" width="333" height="112"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ji3-mX-Jkh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="104.5" height="112"/>
-                                                                <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tH-5S-uNQ" customClass="ButtonAnimate" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="91.5"/>
-                                                                        <constraints>
-                                                                            <constraint firstAttribute="width" constant="92" id="CgF-0P-f7c"/>
-                                                                        </constraints>
-                                                                        <state key="normal" image="menuIcon"/>
-                                                                        <connections>
-                                                                            <segue destination="leS-uA-puM" kind="show" id="PAO-9Z-2j9"/>
-                                                                        </connections>
-                                                                    </button>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yd-zV-Ieb" customClass="LabelHome" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="91.5" width="104.5" height="20.5"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <nil key="highlightedColor"/>
-                                                                    </label>
-                                                                </subviews>
-                                                            </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="uye-uM-a4a">
-                                                                <rect key="frame" x="114.5" y="0.0" width="104" height="112"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="161.5" height="112"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFy-PK-NtV" customClass="ButtonAnimate" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="104" height="91.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="161.5" height="91.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="92" id="PQo-vG-apI"/>
                                                                         </constraints>
@@ -177,7 +135,7 @@
                                                                         </connections>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0S-23-4v1" customClass="LabelHome" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="91.5" width="104" height="20.5"/>
+                                                                        <rect key="frame" x="0.0" y="91.5" width="161.5" height="20.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -185,10 +143,10 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IO6-46-SmC">
-                                                                <rect key="frame" x="228.5" y="0.0" width="104.5" height="112"/>
+                                                                <rect key="frame" x="171.5" y="0.0" width="161.5" height="112"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdz-Qa-vjo" customClass="ButtonAnimate" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="91.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="161.5" height="91.5"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="92" id="2sB-em-eWr"/>
                                                                         </constraints>
@@ -198,7 +156,7 @@
                                                                         </connections>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDr-2M-uQH" customClass="LabelHome" customModule="Ali_s_Fisch" customModuleProvider="target">
-                                                                        <rect key="frame" x="0.0" y="91.5" width="104.5" height="20.5"/>
+                                                                        <rect key="frame" x="0.0" y="91.5" width="161.5" height="20.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -266,14 +224,10 @@
                         <outlet property="homeView" destination="VhQ-KQ-CqJ" id="sRg-Q3-Enh"/>
                         <outlet property="logo" destination="Z7w-SX-JRq" id="O4e-gx-dMs"/>
                         <outlet property="menuItem1" destination="oeq-jE-VdD" id="ijv-vz-gab"/>
-                        <outlet property="menuItem2" destination="t6O-5G-eko" id="9Qt-so-DZR"/>
-                        <outlet property="menuItem3" destination="hMe-sU-8hF" id="ArR-gi-fEo"/>
                         <outlet property="menuItem4" destination="7tH-5S-uNQ" id="94e-oF-pJH"/>
                         <outlet property="menuItem5" destination="bFy-PK-NtV" id="C0F-8q-MEM"/>
                         <outlet property="menuItem6" destination="Xdz-Qa-vjo" id="kjB-1M-6zh"/>
                         <outlet property="menuLbl1" destination="XF3-gP-29L" id="EmP-RA-T1C"/>
-                        <outlet property="menuLbl2" destination="PZl-zI-pQy" id="c0T-8u-i4m"/>
-                        <outlet property="menuLbl3" destination="5Ru-6w-1iD" id="qW3-DY-4RO"/>
                         <outlet property="menuLbl4" destination="4Yd-zV-Ieb" id="aYR-K4-syh"/>
                         <outlet property="menuLbl5" destination="U0S-23-4v1" id="VjW-ok-29K"/>
                         <outlet property="menuLbl6" destination="cDr-2M-uQH" id="FQO-4x-cXr"/>
@@ -301,7 +255,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo02" translatesAutoresizingMaskIntoConstraints="NO" id="zCQ-WZ-i0Z">
-                                <rect key="frame" x="38" y="117" width="300" height="434"/>
+                                <rect key="frame" x="38" y="159" width="300" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="Ghp-ap-juw"/>
                                 </constraints>
@@ -1567,7 +1521,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo02" translatesAutoresizingMaskIntoConstraints="NO" id="a8k-gQ-vgD">
-                                <rect key="frame" x="38" y="117" width="300" height="434"/>
+                                <rect key="frame" x="38" y="159" width="300" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="300" id="rJy-ds-mEk"/>
                                 </constraints>
@@ -2052,11 +2006,11 @@
                         <outlet property="tableView" destination="9Ai-zp-feu" id="s7a-8F-fhP"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="0" id="lSl-5G-diZ"/>
                         <segue destination="Jrz-do-ggR" kind="show" identifier="1" id="MP2-ps-yw4"/>
-                        <segue destination="TSb-jX-W01" kind="show" identifier="2" id="fTn-n1-Yeg"/>
-                        <segue destination="NJz-j9-Ghq" kind="show" identifier="3" id="F9w-Lg-DGK"/>
-                        <segue destination="leS-uA-puM" kind="show" identifier="4" id="PzC-CE-oEv"/>
-                        <segue destination="0HQ-vq-Zk4" kind="show" identifier="5" id="oPm-o0-noY"/>
-                        <segue destination="5EP-Nc-R5w" kind="show" identifier="6" id="ByJ-5X-vFK"/>
+                        <segue destination="TSb-jX-W01" kind="show" identifier="9" id="fTn-n1-Yeg"/>
+                        <segue destination="NJz-j9-Ghq" kind="show" identifier="10" id="F9w-Lg-DGK"/>
+                        <segue destination="leS-uA-puM" kind="show" identifier="2" id="PzC-CE-oEv"/>
+                        <segue destination="0HQ-vq-Zk4" kind="show" identifier="3" id="oPm-o0-noY"/>
+                        <segue destination="5EP-Nc-R5w" kind="show" identifier="4" id="ByJ-5X-vFK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eif-JY-bUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2594,20 +2548,18 @@
     <resources>
         <image name="bg" width="771" height="514"/>
         <image name="coupon" width="708" height="500"/>
-        <image name="logo02" width="864" height="434"/>
+        <image name="logo02" width="697" height="350"/>
         <image name="menuIcon" width="92" height="92"/>
         <image name="starEmpty1x" width="25" height="25"/>
         <image name="starFull1x" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3Oq-v4-3gT"/>
+        <segue reference="oPm-o0-noY"/>
+        <segue reference="0QZ-d4-p05"/>
         <segue reference="lSl-5G-diZ"/>
-        <segue reference="aWk-Aa-VjO"/>
-        <segue reference="2pr-FC-ebc"/>
+        <segue reference="ByJ-5X-vFK"/>
+        <segue reference="MP2-ps-yw4"/>
+        <segue reference="PzC-CE-oEv"/>
         <segue reference="zZ4-V6-PRo"/>
-        <segue reference="08p-oD-Qpd"/>
-        <segue reference="PAO-9Z-2j9"/>
-        <segue reference="4GZ-W5-5yC"/>
-        <segue reference="T4D-LV-E4T"/>
     </inferredMetricsTieBreakers>
 </document>

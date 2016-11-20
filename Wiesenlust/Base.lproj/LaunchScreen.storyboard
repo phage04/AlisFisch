@@ -47,7 +47,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg" width="779" height="522"/>
-        <image name="logo02" width="864" height="434"/>
+        <image name="bg" width="771" height="514"/>
+        <image name="logo02" width="697" height="350"/>
     </resources>
 </document>
